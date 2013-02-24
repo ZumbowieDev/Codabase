@@ -157,3 +157,15 @@
 .one-col {
 	width: 6.382978723404255%;
 }
+
+.one-half {
+	width: 49.999999%
+}
+
+.one-quarter {
+	width: 25%;
+}
+
+.one-third {
+	width: 33.3333333333%;
+}
