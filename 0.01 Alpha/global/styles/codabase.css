@@ -18,9 +18,15 @@
 
 /* ================ GLOBAL MARGIN RESET ================ */
 /* This'll be further intergrated on in further builds */
+
 * {
 	margin: 0;
 	padding: 0;
+
+		    box-sizing: border-box;
+	     -o-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 }
 
 /* ================ HELPER CLASSES ================ */
@@ -97,157 +103,57 @@
 /* A beautiful 12 Col. Grid system. Whoo! */
 
 .row {
-  margin-left: -20px;
-  *zoom: 1;
+	width: 100%;
 }
 
-.row:before,
-.row:after {
-  display: table;
-  line-height: 0;
-  content: "";
-}
-
-.row:after {
-  clear: both;
-}
+	.row div {
+		display: inline-block;
+	}
 
 .twelve-col {
-  width: 940px;
+	width: 100%;
 }
 
 .eleven-col {
-  width: 860px;
+	width: 91.48936170212765%;
 }
 
 .ten-col {
-  width: 780px;
+	width: 82.97892340425532%;
 }
 
 .nine-col {
-  width: 700px;
+	width: 74.46808510638297%;
 }
 
 .eight-col {
-  width: 620px;
+	width: 68.95744680851064%;
 }
 
 .seven-col {
-  width: 540px;
+	width: 57.44680851063829%;
 }
 
 .six-col {
-  width: 460px;
+	width: 48.93617021276595%;
 }
 
 .five-col {
-  width: 380px;
+	width: 40.42553191489362%;
 }
 
 .four-col {
-  width: 300px;
+	width: 31.9148936170212%;
 }
 
 .three-col {
-  width: 220px;
+	width: 23.404255319148934%;
 }
 
 .two-col {
-  width: 140px;
+	width: 14.893617021276595%;
 }
 
 .one-col {
-  width: 60px;
-}
-
-.row-flex {
-  width: 100%;
-  *zoom: 1;
-}
-
-.row-flex:before,
-.row-flex:after {
-  display: table;
-  line-height: 0;
-  content: "";
-}
-
-.row-flex:after {
-  clear: both;
-}
-
-.row-flex [class*="span"] {
-  display: block;
-  float: left;
-  width: 100%;
-  min-height: 30px;
-  margin-left: 2.127659574468085%;
-  *margin-left: 2.074468085106383%;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.row-flex [class*="span"]:first-child {
-  margin-left: 0;
-}
-
-.row-flex .twelve-col {
-  width: 100%;
-  *width: 99.94680851063829%;
-}
-
-.row-flex .eleven-col {
-  width: 91.48936170212765%;
-  *width: 91.43617021276594%;
-}
-
-.row-flex .ten-col {
-  width: 82.97872340425532%;
-  *width: 82.92553191489361%;
-}
-
-.row-flex .nine-col {
-  width: 74.46808510638297%;
-  *width: 74.41489361702126%;
-}
-
-.row-fluid .eight-col {
-  width: 65.95744680851064%;
-  *width: 65.90425531914893%;
-}
-
-.row-fluid .seven-col {
-  width: 57.44680851063829%;
-  *width: 57.39361702127659%;
-}
-
-.row-fluid .six-col {
-  width: 48.93617021276595%;
-  *width: 48.88297872340425%;
-}
-
-.row-fluid .five-col {
-  width: 40.42553191489362%;
-  *width: 40.37234042553192%;
-}
-
-.row-fluid .four-col {
-  width: 31.914893617021278%;
-  *width: 31.861702127659576%;
-}
-
-.row-fluid .three-col {
-  width: 23.404255319148934%;
-  *width: 23.351063829787233%;
-}
-
-.row-fluid .two-col {
-  width: 14.893617021276595%;
-  *width: 14.840425531914894%;
-}
-
-.row-fluid .one-col {
-  width: 6.382978723404255%;
-  *width: 6.329787234042553%;
+	width: 6.382978723404255%;
 }
