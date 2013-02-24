@@ -7,4 +7,4 @@ Codabase is easy to use, and can be initialized in 3 easy steps. For easier web 
 
 Yo, please note..
 -----------------
-Codabase is in active development. We welcome your help and fixes or platform code (EG: IE, Moz, Webkit) is always welcome. All pull-requests will be sorted through every weekend (GMT+13).
+Codabase is in active development. Your help, fixes or platform code (EG: IE, Moz, Webkit) are always welcome. All pull-requests will be sorted through every weekend (GMT+13).
