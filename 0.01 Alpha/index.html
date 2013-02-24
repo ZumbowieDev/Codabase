@@ -24,18 +24,23 @@
 	</head>
 
 	<body>
-		<header><!-- There should only be one in a doc, class or id not nes. -->
-			<nav class="primary"><!-- class of primary just to single it out if there's a secondary 'nav' -->
+		<header class="fixed-top"><!-- There should only be one in a doc, class or id not nes. -->
+			<nav><!-- No need for a class, because of CSS selection: "header nav", header needs no class. -->
 				<ul>
 					<li><a href="#">Link</a></li>
 					<li><a href="#">Link</a></li>
 					<li><a href="#">Link</a></li>
 					<li><a href="#">Link</a></li>
 				</ul>
+
+				<form class="pull-right">
+					<input type="text" placeholder="Search ... " class="animate-05"/>
+					<input type="submit" style="position: absolute; left: -9999px; width: 1px; height: 1px;" hidefocus="true" />
+				</form>
 			</nav>
 		</header><!-- end header -->
 
-		<section class="body">
+		<section class="body container-1120">
 			<div class="row">
 				<div class="three-col">
 					section.body div.row div.three-col

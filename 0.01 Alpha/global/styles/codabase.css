@@ -29,6 +29,10 @@
 	-webkit-box-sizing: border-box;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Open Sans", Arial, sans-serif;
+}
+
 /* ================ HELPER CLASSES ================ */
 /* If you have any good ideas for helper classes, please file an issue report. */
 
@@ -169,3 +173,64 @@
 .one-third {
 	width: 33.3333333333%;
 }
+
+/* ================ Codabase Styles ================ */
+/* Mmm, sleek white-ness. */
+
+body {
+	font-family: "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	font-size: 13px;
+	background-color: #F7F7F7;
+	color: #555555;
+}
+
+header { /* There's usually only one in a document, so there's no need for a class or ID. */
+	font-family: "Segoe UI Light", "Segoe Light", "Segoe UI", "Segoe", Arial, sans-serif;
+	font-size: 22px;
+	width: 100%;
+	padding: 10px 10px 15px;
+}
+
+	header.fixed-top { /* A 'sticky' header */
+		background-color: #FFFFFF;
+		position: fixed;
+		padding: 10px 10px 15px;
+
+	}
+
+	header nav {
+		margin-right: 20px;
+		margin-right: 20px;
+	}
+
+		header nav ul {
+			display: inline-block;
+		}
+
+			header nav ul li {
+				display: inline;
+			}
+
+				header nav ul li a {
+					text-decoration: none;
+					color: inherit;
+					padding: 10px 20px 18px; 
+				}
+
+				header nav ul li a:hover {
+					background-color: #E0E0E0;
+				}
+
+	header nav form {}
+
+		header nav form input {
+			padding: 5px 10px 5px;
+			width: 100px;
+			border: 1px solid #E0E0E0;
+		}
+
+			header nav form input:focus {
+				width: 230px;
+				outline: none;
+				border: 1px solid #999999;
+			}
