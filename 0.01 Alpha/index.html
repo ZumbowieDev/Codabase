@@ -1,4 +1,48 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title></title>
+		<title>Codabase || So easy your mum could code it.</title>
+
+		<!--
+			Stylesheets
+
+			NOTE: All scripts inc. jQuery is init'd before the end of the '<body>' element; for speed's sake.
+		-->
+
+		<link rel="stylesheet" href="global/styles/page.css" /><!-- your custom styles -->
+		<link rel="stylesheet" href="global/styles/codabase.css" /><!-- the grid + our default styles -->
+		<link rel="stylesheet" href="global/styles/responsive.css"/><!-- responsive-ness.. yay! -->
+	</head>
+
+	<body>
+		<header><!-- There should only be one in a doc, class or id not nes. -->
+			<nav class="primary"><!-- class of primary just to single it out if there's a secondary 'nav' -->
+				<ul>
+					<li><a href="#">Link</a></li>
+					<li><a href="#">Link</a></li>
+					<li><a href="#">Link</a></li>
+					<li><a href="#">Link</a></li>
+				</ul>
+			</nav>
+		</header><!-- end header -->
+
+		<section class="body">
+			<div class="row">
+				<div class="three-col">
+					section.body div.row div.three-col
+				</div><!-- end three-col -->
+
+				<div class="nine-col">
+					section.body div.row div.nine-col
+				</div><!-- end nine-col -->
+			</div><!-- end row -->
+		</section>
+
+	<!-- 
+		Scripts n' shit. They're at the bottom to optimize loading speeds.
+	-->
+
+	<script src="//code.jquery.com/jquery-latest.min.js"></script>
+	<script src="global/js/your-js.js"></script>
+	</body>
+</html>
